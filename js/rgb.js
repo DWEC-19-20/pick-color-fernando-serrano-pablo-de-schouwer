@@ -7,7 +7,11 @@
     var b = document.getElementById("b");
 
     var hex = document.getElementById("hex");
-
+    
+    function getHex(value){
+      var hexa=parseInt(value).toString(16);
+      return hexa.length==1?"0" + hexa:hexa;
+    }
 
     function convert(){
       var red= r.value;
@@ -18,7 +22,4 @@
       hex.value=hexC;
     };
 
-    function getHex(value){
-      var hexa=parseInt(value).toString(16);
-      return hexa.length==1?"0" + hexa:hexa;
-    }
+    

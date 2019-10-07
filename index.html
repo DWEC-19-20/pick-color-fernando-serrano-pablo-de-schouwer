@@ -3,29 +3,37 @@
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 </head>
 <html>
-    <body>
+    <body><center>
        
     <h1>PICK COLOR</h1>
     
-    <label for="r">R </label>
+    <label for="r" class="red">R </label>
     <input id="r"  type="range" min="0" max="255" value="0" onchange="document.getElementById('r').value=this.value; convert();"></input>
-    <label for="g">G </label>
+    <br><label for="g" class="green">G </label>
     <input id="g"  type="range" min="0" max="255" value="0" onchange="document.getElementById('g').value=this.value; convert();"></input>
-    <label for="b">B </label>
+    <br><label for="b" class="blue">B </label>
     <input id="b"  type="range" min="0" max="255" value="0" onchange="document.getElementById('b').value=this.value; convert();"></input>
-    <input type="submit" name="enviar">
+    <br>
 
     <br><br>
-    <label for="hex">VALOR HEXADECIMAL </label>
+    <label for="hex">Valor en hexadecimal </label>
     <input name="hex" id="hex" readonly value="#000000"></input>
         <br>
         <br>
-    
+<hr>
+<br>
+    <label for="hex">Introduce valor en hexadecimal </label>  
     <input type="text" id="rgb">
+   
+    <input type="submit" name="enviar">
+
+    <br><br>
+    <label for="hex">Valor en RGB </label>
+   
     <input type="text" id="int" name="convertir" onclick="converter()">
 
    <script src="js/rgb.js"> </script>
 
-
+</center>
     </body>
 </html>

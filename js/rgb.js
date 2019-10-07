@@ -21,9 +21,9 @@ function getHex(value){
 
 };
 /* Función que al pasar un valor RGB en representación hexadecimal
-   devuelve la representación en formato decimal con el formato RRRGGGBB
+   devuelve la representación en formato decimal con el formato RRRGGGBB*/
 
-//s
+
 
 function converter(){
                    
@@ -53,6 +53,6 @@ var getInt3=parseInt(getHex3,16);
 var setInt = document.getElementById('int')
  setInt.value='rgb('+getInt1+' ,'+getInt2+' ,' + getInt3 +')';
   };
-   */
+  
 
     

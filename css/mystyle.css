@@ -1,3 +1,17 @@
 body{
-    background-color: gray;
+    background-color:lightsteelblue;
+}
+label.red{
+    color: red;
+}
+label.blue{
+    color:blue;
+}
+label.green{
+    color:lime;
+}
+hr{
+   width: 50%;
+    background-color:black;
+    height: 2px;
 }

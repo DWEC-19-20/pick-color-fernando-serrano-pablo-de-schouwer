@@ -40,7 +40,7 @@ else if(h.length==7){
 }
 else
     {
-      window.alert("mete un numero valido ");
+      window.alert("No es valido");
     }
 var getHex=hex.substring(1);
 var getHex1=getHex.substring(0,2);
@@ -51,7 +51,7 @@ var getInt1=parseInt(getHex1,16);
 var getInt2=parseInt(getHex2,16);
 var getInt3=parseInt(getHex3,16);
 var setInt = document.getElementById('int')
- setInt.value='rgb('+getInt1+' ,'+getInt2+' ,' + getInt3 +')';
+ setInt.value="R: "+getInt1+"        G: "+getInt2+"       B: " + getInt3;
   };
   
 

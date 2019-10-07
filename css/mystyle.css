@@ -1,5 +1,5 @@
 body{
-    background-color:lightsteelblue;
+    background-color:rgb(167, 151, 82);
 }
 label.red{
     color: red;
@@ -13,5 +13,5 @@ label.green{
 hr{
    width: 50%;
     background-color:black;
-    height: 2px;
+    height: 2.5px;
 }

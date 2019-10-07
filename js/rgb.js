@@ -51,7 +51,7 @@ var getInt1=parseInt(getHex1,16);
 var getInt2=parseInt(getHex2,16);
 var getInt3=parseInt(getHex3,16);
 var setInt = document.getElementById('int')
- setInt.value="R: "+getInt1+"        G: "+getInt2+"       B: " + getInt3;
+ setInt.value="R: "+getInt1+"        G: "+getInt2+"      B: " + getInt3;
   };
   
 

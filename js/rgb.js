@@ -4,6 +4,7 @@ var r=document.getElementById('r');
 var g=document.getElementById('g');
 var b=document.getElementById('b');
 
+//Para crear el index
 var hexadecimal=document.getElementById('hexadecimal');
 
 function convert(){
@@ -44,7 +45,7 @@ var setInt = document.getElementById('int')
 setInt.value="R: "+getInt1+"       G: "+getInt2+"     B: " + getInt3;
 };
 
-/*Test*/
+// a partir de aqui para pasar los test
 
 function rgb(r, g, b){
     r=rango(r);

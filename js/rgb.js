@@ -6,9 +6,6 @@ var b=document.getElementById('b');
 
 var hexadecimal=document.getElementById('hexadecimal');
 
-
-
-
 function convert(){
 
   var red= r.value;
@@ -47,6 +44,7 @@ var setInt = document.getElementById('int')
 setInt.value="R: "+getInt1+"       G: "+getInt2+"     B: " + getInt3;
 };
 
+/*Test*/
 
 function rgb(r, g, b){
     r=rango(r);
